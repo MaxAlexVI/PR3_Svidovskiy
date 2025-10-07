@@ -17,11 +17,16 @@ func main() {
 		api.JSON(w, http.StatusOK, map[string]string{"status": "ok"})
 	})
 
-	// Коллекция
+	// Вывести все таски
 	mux.HandleFunc("GET /tasks", h.ListTasks)
+	// Создать таск
 	mux.HandleFunc("POST /tasks", h.CreateTask)
-	// Элемент
+
+	// Вывести конкретный таск по id
 	mux.HandleFunc("GET /tasks/", h.GetTask)
+
+	// Удалить конкретный таск по id
+	mux.HandleFunc("DELETE /tasks/", h.DeleteTask)
 
 	// Подключаем логирование
 	handler := api.Logging(mux)

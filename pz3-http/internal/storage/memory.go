@@ -51,3 +51,15 @@ func (s *MemoryStore) List() []*Task {
 	}
 	return out
 }
+
+func (s *MemoryStore) Delete(id int64) error {
+	s.mu.Lock()
+	defer s.mu.Unlock()
+
+	if _, ok := s.tasks[id]; !ok {
+		return errors.New("not found")
+	}
+
+	delete(s.tasks, id)
+	return nil
+}
