@@ -35,6 +35,24 @@
 ## Валидация: title
 <img width="884" height="176" alt="image" src="https://github.com/user-attachments/assets/54b2d117-662f-4b3a-b898-2eb262abb4ba" />
 
+## PATCH /tasks/{id}
+
+### Создаем новый таск для проверки (не получается, валидация по титле :( )
+<img width="1487" height="391" alt="image" src="https://github.com/user-attachments/assets/3ee1ddeb-0aed-4e48-a5ae-702570c66507" />
+
+<img width="1488" height="629" alt="image" src="https://github.com/user-attachments/assets/88016a22-c4b0-4707-bc91-99aee51a4408" />
+
+
+Меняем done на true, а title на другой 
+<img width="1492" height="672" alt="image" src="https://github.com/user-attachments/assets/cb3a732d-25c9-4524-999d-3c607c959789" />
+
+<img width="1503" height="706" alt="image" src="https://github.com/user-attachments/assets/2f284434-4d40-4be4-897f-aae1fe46ef05" />
+
+
+
+
+
+
 
 
 
