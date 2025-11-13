@@ -1,9 +1,11 @@
 # Практическая работа №3 Свидовский М.А ЭФМО-01-25  
 ## 1. Структура проекта:	
-<img width="260" height="200" alt="image" src="https://github.com/user-attachments/assets/3fe44fe5-6561-4ca2-bd56-f118ef4e9847" />
+<img width="280" height="336" alt="image" src="https://github.com/user-attachments/assets/4da8e4ca-40fe-4b2c-9cae-bfb0df702c7b" />
+
 
 ## 2. GET /health — возвращает {"status":"ok"}
-<img width="776" height="558" alt="image" src="https://github.com/user-attachments/assets/d08574f3-a73d-40f7-a5ee-fda3e8475b8a" />
+<img width="1497" height="510" alt="image" src="https://github.com/user-attachments/assets/3536aff7-ac56-404f-8eb8-c4e47d3dce7a" />
+
 
 ## 3. GET /tasks (вывод всех тасков) 
 <img width="776" height="558" alt="image" src="https://github.com/user-attachments/assets/3e75f345-7fae-4376-a281-c3b0617a0fee" />
@@ -47,6 +49,16 @@
 <img width="1492" height="672" alt="image" src="https://github.com/user-attachments/assets/cb3a732d-25c9-4524-999d-3c607c959789" />
 
 <img width="1503" height="706" alt="image" src="https://github.com/user-attachments/assets/2f284434-4d40-4be4-897f-aae1fe46ef05" />
+
+## CORS 
+<img width="1494" height="517" alt="image" src="https://github.com/user-attachments/assets/746612d4-cd4d-4b95-be22-1979ccb4785b" />
+
+## Graceful shutdown
+<img width="551" height="219" alt="image" src="https://github.com/user-attachments/assets/0e28e534-6ac9-4e54-b71f-f6113049d9ab" />
+
+## Тестовые запросы
+<img width="1407" height="700" alt="image" src="https://github.com/user-attachments/assets/f30995b1-b9e3-4f48-a70d-fffdc7ab72da" />
+
 
 
 
